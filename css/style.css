@@ -121,3 +121,21 @@
       transform: translate(16vw, 8vh); }
     100% {
       transform: translate(20vw, 10vh); } } }
+
+.cuadro-precio {
+  position: fixed;
+  left: 700px;
+  top: 150px; }
+
+.cuadro-detall {
+  position: absolute;
+  left: 0px; }
+
+.border-gris {
+  border: solid 1px gray; }
+
+@media (max-width: 575px) {
+  .cuadro-precio {
+    position: relative;
+    left: auto;
+    top: auto; } }
