@@ -16,13 +16,20 @@
 
 // //media queries
 
-// @media(max-width:1024px){
-//     .cuadro-precio{
-//         position: relative;
-//         left: auto;
-//         top: auto;
+@media(max-width:1024px){
+    .cuadro-precio{
+        position: relative;
+        left: auto;
+        top: auto;
+        
+        
         
 
-//     }
+    }
+
+    .border-gris{
+        border: solid 2px red;
+
+    }
     
-// }
+}
