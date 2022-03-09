@@ -1,35 +1,28 @@
- .cuadro-precio{
-     position: fixed;
-     left: 700px;
-     top: 150px;
- }
+.cuadro-precio {
+  position: fixed;
+  left: 700px;
+  top: 150px;
+}
 
- .cuadro-detalle{
-     position: absolute;
-     left: 0px;
- }
+.cuadro-detalle {
+  position: absolute;
+  left: 0px;
+}
 
- .border-gris{
-     border: solid 1px gray;
-     
- }
+.border-gris {
+  border: solid 1px gray;
+}
 
 // //media queries
 
-@media(max-width:1024px){
-    .cuadro-precio{
-        position: relative;
-        left: auto;
-        top: auto;
-        
-        
-        
+@media (max-width: 1024px) {
+  .cuadro-precio {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
 
-    }
-
-    .border-gris{
-        border: solid 2px red;
-
-    }
-    
+  .border-gris {
+    border: solid 2px red;
+  }
 }
