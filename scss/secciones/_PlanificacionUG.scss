@@ -13,13 +13,14 @@
   border: solid 1px gray;
 }
 
-// //media queries
+// media queries
+// Cuando la pantalla tenga un ancho máximo de 768px
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cuadro-precio {
     position: relative;
     left: auto;
-    top: auto;
+    top: 1100px;
   }
 
   .border-gris {

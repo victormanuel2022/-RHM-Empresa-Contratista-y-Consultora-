@@ -134,10 +134,10 @@
 .border-gris {
   border: solid 1px gray; }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .cuadro-precio {
     position: relative;
     left: auto;
-    top: auto; }
+    top: 1100px; }
   .border-gris {
     border: solid 2px red; } }
