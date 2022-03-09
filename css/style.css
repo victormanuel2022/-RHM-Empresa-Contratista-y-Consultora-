@@ -123,9 +123,9 @@
       transform: translate(20vw, 10vh); } } }
 
 .cuadro-precio {
-  position: fixed;
-  left: 700px;
-  top: 150px; }
+  position: relative;
+  left: 5px;
+  top: 1100px; }
 
 .cuadro-detalle {
   position: absolute;
@@ -134,10 +134,37 @@
 .border-gris {
   border: solid 1px gray; }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) {
   .cuadro-precio {
     position: relative;
-    left: auto;
-    top: 1100px; }
-  .border-gris {
-    border: solid 2px red; } }
+    left: 20px;
+    top: 900px;
+    width: 350px; } }
+
+@media (min-width: 768px) {
+  .cuadro-precio {
+    position: relative;
+    left: 20px;
+    top: 780px;
+    width: 350px; } }
+
+@media (min-width: 992px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 630px;
+    top: 180px;
+    width: 350px; } }
+
+@media (min-width: 1200px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 700px;
+    top: 180px;
+    width: 350px; } }
+
+@media (min-width: 1440px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 1000px;
+    top: 180px;
+    width: 350px; } }

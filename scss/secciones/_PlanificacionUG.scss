@@ -1,7 +1,7 @@
 .cuadro-precio {
-  position: fixed;
-  left: 700px;
-  top: 150px;
+  position: relative;
+  left: 5px;
+  top: 1100px;
 }
 
 .cuadro-detalle {
@@ -14,16 +14,49 @@
 }
 
 // media queries
-// Cuando la pantalla tenga un ancho máximo de 768px
+// Cuando la pantalla tenga hasta un ancho mínimo de 576px
 
-@media (max-width: 768px) {
+@media (min-width: 576px) {
   .cuadro-precio {
     position: relative;
-    left: auto;
-    top: 1100px;
+    left: 20px;
+    top: 900px;
+    width: 350px;
   }
+}
 
-  .border-gris {
-    border: solid 2px red;
+@media (min-width: 768px) {
+  .cuadro-precio {
+    position: relative;
+    left: 20px;
+    top: 780px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 630px;
+    top: 180px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 700px;
+    top: 180px;
+    width: 350px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cuadro-precio {
+    position: fixed;
+    left: 1000px;
+    top: 180px;
+    width: 350px;
   }
 }
